@@ -1,6 +1,6 @@
 package com.habibie.asteroid.exceptions;
 
-import com.habibie.asteroid.model.nasa.NasaError;
+import com.habibie.asteroid.model.NasaError;
 import lombok.Getter;
 
 @Getter

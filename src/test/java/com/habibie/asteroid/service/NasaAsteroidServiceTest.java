@@ -2,7 +2,7 @@ package com.habibie.asteroid.service;
 
 import com.google.gson.Gson;
 import com.habibie.asteroid.exceptions.NasaClientException;
-import com.habibie.asteroid.model.nasa.*;
+import com.habibie.asteroid.model.*;
 import com.habibie.asteroid.service.interfaces.NasaNeoService;
 import okhttp3.MediaType;
 import okhttp3.ResponseBody;
@@ -24,10 +24,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @SpringBootTest
-public class AsteroidServiceTest {
+public class NasaAsteroidServiceTest {
 
     @InjectMocks
-    private AsteroidService asteroidService;
+    private NasaAsteroidService nasaAsteroidService;
 
     @Mock
     private Retrofit retrofit;
@@ -97,7 +97,7 @@ public class AsteroidServiceTest {
         Response<NeoBrowse> response = Response.success(neoBrowse);
         when(neoBrowseCall.execute()).thenReturn(response);
 
-        List<Neo> actualNeos = asteroidService.getAllNeo();
+        List<Neo> actualNeos = nasaAsteroidService.getAllNeo();
         verify(nasaNeoService, times(1)).getAllNeo(any());
         verify(neoBrowseCall, times(1)).execute();
         assertNotNull(actualNeos);
@@ -120,7 +120,7 @@ public class AsteroidServiceTest {
         Response<NeoBrowse> response = Response.error(HttpStatus.FORBIDDEN.value(),responseBody);
         when(neoBrowseCall.execute()).thenReturn(response);
 
-        assertThrows(NasaClientException.class, () -> asteroidService.getAllNeo());
+        assertThrows(NasaClientException.class, () -> nasaAsteroidService.getAllNeo());
         verify(nasaNeoService, times(1)).getAllNeo(any());
         verify(neoBrowseCall, times(1)).execute();
     }
@@ -148,7 +148,7 @@ public class AsteroidServiceTest {
         Response<NeoFeed> response = Response.success(neoFeed);
         when(neoFeedCall.execute()).thenReturn(response);
 
-        NeoFeed neoFeedActual = asteroidService.getCurrentNeo(startDate, endDate);
+        NeoFeed neoFeedActual = nasaAsteroidService.getCurrentNeo(startDate, endDate);
         verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
         verify(neoFeedCall, times(1)).execute();
         assertNotNull(neoFeedActual.getNearObjectOnEarth());
@@ -173,7 +173,7 @@ public class AsteroidServiceTest {
         Response<Neo> response = Response.success(neo);
         when(neoCall.execute()).thenReturn(response);
 
-        Neo neoActual = asteroidService.getDetailNeo("2000433");
+        Neo neoActual = nasaAsteroidService.getDetailNeo("2000433");
         verify(nasaNeoService, times(1)).getDetailNeo(eq("2000433"), any());
         verify(neoCall, times(1)).execute();
         assertNotNull(neoActual);

@@ -1,8 +1,8 @@
 package com.habibie.asteroid.service.interfaces;
 
-import com.habibie.asteroid.model.nasa.NeoBrowse;
-import com.habibie.asteroid.model.nasa.Neo;
-import com.habibie.asteroid.model.nasa.NeoFeed;
+import com.habibie.asteroid.model.NeoBrowse;
+import com.habibie.asteroid.model.Neo;
+import com.habibie.asteroid.model.NeoFeed;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

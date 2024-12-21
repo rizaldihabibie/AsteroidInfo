@@ -2,7 +2,8 @@ package com.habibie.asteroid.service;
 
 import com.google.gson.Gson;
 import com.habibie.asteroid.exceptions.NasaClientException;
-import com.habibie.asteroid.model.nasa.*;
+import com.habibie.asteroid.model.*;
+import com.habibie.asteroid.service.interfaces.AsteroidService;
 import com.habibie.asteroid.service.interfaces.NasaNeoService;
 import okhttp3.ResponseBody;
 import org.apache.logging.log4j.LogManager;
@@ -19,18 +20,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class AsteroidService {
+public class NasaAsteroidService implements AsteroidService {
 
     @Value("${nasa.api.key}")
     private String nasaApiKey;
 
-    private final Logger LOGGER = LogManager.getLogger(AsteroidService.class);
+    private final Logger LOGGER = LogManager.getLogger(NasaAsteroidService.class);
 
     private NasaNeoService nasaNeoService;
 
     @Autowired
     private Retrofit retrofit;
 
+    @Override
     public List<Neo> getAllNeo() throws Exception {
 
         nasaNeoService = retrofit.create(NasaNeoService.class);
@@ -56,6 +58,7 @@ public class AsteroidService {
         }
     }
 
+    @Override
     public NeoFeed getCurrentNeo(String startDate, String endDate) throws Exception {
 
         nasaNeoService = retrofit.create(NasaNeoService.class);
@@ -77,6 +80,7 @@ public class AsteroidService {
         }
     }
 
+    @Override
     public Neo getDetailNeo(String spkID) throws Exception {
         nasaNeoService = retrofit.create(NasaNeoService.class);
         Call<Neo> nasaCaller = nasaNeoService.getDetailNeo(spkID,nasaApiKey);

@@ -1,4 +1,4 @@
-package com.habibie.asteroid.model.nasa;
+package com.habibie.asteroid.model;
 
 public enum NasaError {
 
