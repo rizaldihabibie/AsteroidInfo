@@ -1,6 +1,8 @@
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/AsteroidApplication.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/config/ApplicationConfig.java
+/home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/controller/AsteroidController.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/exceptions/NasaClientException.java
+/home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/ApplicationResponse.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/AsteroidCloseApproachData.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/EstimatedDiameter.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/Links.java

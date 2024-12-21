@@ -16,10 +16,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service
 public class NasaAsteroidService implements AsteroidService {
@@ -61,7 +58,7 @@ public class NasaAsteroidService implements AsteroidService {
     }
 
     @Override
-    public NeoFeed getCurrentNeo(String startDate, String endDate) throws Exception {
+    public HashMap<String, List<Neo>> getCurrentNeo(String startDate, String endDate) throws Exception {
 
         nasaNeoService = retrofit.create(NasaNeoService.class);
         Call<NeoFeed> nasaCaller = nasaNeoService.getCurrentNeo(startDate, endDate,nasaApiKey);
@@ -79,10 +76,12 @@ public class NasaAsteroidService implements AsteroidService {
                                 ))
                         );
                     }
+
+                    return neoFeed.getNearEarthObjects();
                 } else {
                     LOGGER.warn("empty data from NASA.");
+                    return null;
                 }
-                return response.body();
             } else {
                 checkErrorRequest(response);
             }

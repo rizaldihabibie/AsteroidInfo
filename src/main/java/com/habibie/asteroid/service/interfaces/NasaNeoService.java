@@ -28,7 +28,7 @@ public interface NasaNeoService {
      * @return a {@link Call} object that can be used to execute the request asynchronously or synchronously,
      *         returning a list of {@link NeoBrowse} objects
      */
-    @GET("/rest/v1/feed")
+    @GET("/neo/rest/v1/feed")
     Call<NeoFeed> getCurrentNeo(
             @Query("start_date") String startDate,
             @Query("end_date") String endDate,
@@ -51,7 +51,7 @@ public interface NasaNeoService {
      * @return a {@link Call} object that can be used to execute the request asynchronously or synchronously,
      *         returning a {@link Neo} object containing the asteroid's details
      */
-    @GET("/rest/v1/neo/{asteroidSPKID}")
+    @GET("/neo/rest/v1/neo/{asteroidSPKID}")
     Call<Neo> getDetailNeo(
             @Path("asteroidSPKID") String asteroidSPKID,
             @Query("api_key") String apiKey
@@ -71,7 +71,7 @@ public interface NasaNeoService {
      * @return a {@link Call} object that can be used to execute the request asynchronously or synchronously,
      *         returning a {@link NeoBrowse} object containing the paginated list of NEOs
      */
-    @GET("/rest/v1/neo/browse")
+    @GET("/neo/rest/v1/neo/browse")
     Call<NeoBrowse> getAllNeo(
             @Query("api_key") String apiKey
     );

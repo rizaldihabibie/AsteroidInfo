@@ -11,13 +11,11 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpStatus;
 import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
-import java.io.InputStream;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -190,11 +188,11 @@ public class NasaAsteroidServiceTest {
         Response<NeoFeed> response = Response.success(neoFeed);
         when(neoFeedCall.execute()).thenReturn(response);
 
-        NeoFeed neoFeedActual = nasaAsteroidService.getCurrentNeo(startDate, endDate);
+        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate);
         verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
         verify(neoFeedCall, times(1)).execute();
-        assertNotNull(neoFeedActual.getNearEarthObjects());
-        assertEquals(3, neoFeedActual.getElementCount());
+        assertNotNull(listNeos);
+        assertEquals(3, listNeos.size());
         List<String> listDates = new ArrayList<>(){
             {
                 add(startDate);
@@ -203,7 +201,7 @@ public class NasaAsteroidServiceTest {
             }
         };
         for(String date: listDates) {
-            List<Neo> actualNeos =  neoFeedActual.getNearEarthObjects().get(date);
+            List<Neo> actualNeos =  listNeos.get(date);
             compareNeoData(expectedNeos, actualNeos);
         }
     }
@@ -237,11 +235,11 @@ public class NasaAsteroidServiceTest {
         Response<NeoFeed> response = Response.success(neoFeed);
         when(neoFeedCall.execute()).thenReturn(response);
 
-        NeoFeed neoFeedActual = nasaAsteroidService.getCurrentNeo(startDate, endDate);
+        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate);
         verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
         verify(neoFeedCall, times(1)).execute();
-        assertNotNull(neoFeedActual.getNearEarthObjects());
-        assertEquals(57, neoFeedActual.getElementCount());
+        assertNotNull(listNeos);
+        assertEquals(4, listNeos.size());
         List<String> listDates = new ArrayList<>(){
             {
                 add(startDate);
@@ -251,7 +249,7 @@ public class NasaAsteroidServiceTest {
             }
         };
         for(String date: listDates) {
-            List<Neo> actualNeos =  neoFeedActual.getNearEarthObjects().get(date);
+            List<Neo> actualNeos =  listNeos.get(date);
             for(int i = 0; i<actualNeos.size(); i++) {
                 if((i+1) < actualNeos.size() ){
                     MissDistance currentMissDistance = actualNeos.get(i).getCloseApproachData()[0].getMissDistance();
