@@ -17,7 +17,9 @@ import retrofit2.Retrofit;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class NasaAsteroidService implements AsteroidService {
@@ -67,6 +69,19 @@ public class NasaAsteroidService implements AsteroidService {
         try {
             Response<NeoFeed> response = nasaCaller.execute();
             if (response.isSuccessful()) {
+                NeoFeed neoFeed = response.body();
+                if(neoFeed != null && neoFeed.getNearEarthObjects() != null) {
+                    // Sorting based on closest distance from earth
+                    for (Map.Entry<String, List<Neo>> entry : neoFeed.getNearEarthObjects().entrySet()) {
+                        entry.getValue().sort(
+                                Comparator.comparingDouble(a -> Double.parseDouble(
+                                        a.getCloseApproachData()[0].getMissDistance().getKilometers()
+                                ))
+                        );
+                    }
+                } else {
+                    LOGGER.warn("empty data from NASA.");
+                }
                 return response.body();
             } else {
                 checkErrorRequest(response);
@@ -125,4 +140,5 @@ public class NasaAsteroidService implements AsteroidService {
             throw new RuntimeException(e);
         }
     }
+
 }

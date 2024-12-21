@@ -1,8 +1,10 @@
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/AsteroidApplication.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/config/ApplicationConfig.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/exceptions/NasaClientException.java
+/home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/AsteroidCloseApproachData.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/EstimatedDiameter.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/Links.java
+/home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/MissDistance.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/NasaError.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/NasaErrorResponse.java
 /home/habibie/Documents/IdentityCoders/asteroid/src/main/java/com/habibie/asteroid/model/Neo.java

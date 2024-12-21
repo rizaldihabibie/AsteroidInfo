@@ -11,11 +11,16 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpStatus;
 import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
+import java.io.InputStream;
+import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -54,6 +59,8 @@ public class NasaAsteroidServiceTest {
         when(retrofit.create(NasaNeoService.class)).thenReturn(nasaNeoService);
         when(nasaNeoService.getAllNeo(any())).thenReturn(neoBrowseCall);
 
+        AsteroidCloseApproachData[] asteroidCloseApproachDataArray = getCloseApproachData();
+
         neo = new Neo();
         neo.setId("2000433");
         neo.setNeoReferenceId("2000433");
@@ -62,6 +69,7 @@ public class NasaAsteroidServiceTest {
         neo.setDesignation("433");
         neo.setPotentiallyHazardousAsteroid(false);
         neo.setAbsoluteMagnitudeH(10.41);
+        neo.setCloseApproachData(asteroidCloseApproachDataArray);
 
         neo1 = new Neo();
         neo1.setId("2000719");
@@ -71,6 +79,7 @@ public class NasaAsteroidServiceTest {
         neo1.setDesignation("719");
         neo1.setPotentiallyHazardousAsteroid(false);
         neo1.setAbsoluteMagnitudeH(15.59);
+        neo1.setCloseApproachData(asteroidCloseApproachDataArray);
 
         neo2 = new Neo();
         neo2.setId("2001620");
@@ -80,6 +89,39 @@ public class NasaAsteroidServiceTest {
         neo2.setDesignation("1620");
         neo2.setPotentiallyHazardousAsteroid(true);
         neo2.setAbsoluteMagnitudeH(15.27);
+        neo2.setCloseApproachData(asteroidCloseApproachDataArray);
+    }
+
+    private static AsteroidCloseApproachData[] getCloseApproachData() {
+        AsteroidCloseApproachData asteroidCloseApproachData = new AsteroidCloseApproachData();
+        MissDistance missDistance = new MissDistance();
+        missDistance.setAstronomical("0.3902033349");
+        missDistance.setLunar("151.7890972761");
+        missDistance.setKilometers("58373587.767936663");
+        missDistance.setMiles("36271665.4995174294");
+        asteroidCloseApproachData.setCloseApproachDate(	"2024-12-22");
+        asteroidCloseApproachData.setCloseApproachDate(	"2024-Dec-22 16:29");
+        asteroidCloseApproachData.setMissDistance(missDistance);
+        return new AsteroidCloseApproachData[]{asteroidCloseApproachData};
+
+    }
+
+    private static AsteroidCloseApproachData createAsteroidData(
+            String closeApproachDate, String closeApproachFullDate,
+            String kilometers, String astronomical, String lunar, String miles) {
+
+        MissDistance missDistance = new MissDistance();
+        missDistance.setKilometers(kilometers);
+        missDistance.setAstronomical(astronomical);
+        missDistance.setLunar(lunar);
+        missDistance.setMiles(miles);
+
+        AsteroidCloseApproachData asteroidData = new AsteroidCloseApproachData();
+        asteroidData.setCloseApproachDate(closeApproachDate);
+        asteroidData.setCloseApproachDateFull(closeApproachFullDate);
+        asteroidData.setMissDistance(missDistance);
+
+        return asteroidData;
     }
 
     @Test
@@ -143,7 +185,7 @@ public class NasaAsteroidServiceTest {
         neoFeedMap.put(startDate, expectedNeos);
         neoFeedMap.put(betweenDate, expectedNeos);
         neoFeedMap.put(endDate, expectedNeos);
-        neoFeed.setNearObjectOnEarth(neoFeedMap);
+        neoFeed.setNearEarthObjects(neoFeedMap);
         neoFeed.setElementCount(3);
         Response<NeoFeed> response = Response.success(neoFeed);
         when(neoFeedCall.execute()).thenReturn(response);
@@ -151,7 +193,7 @@ public class NasaAsteroidServiceTest {
         NeoFeed neoFeedActual = nasaAsteroidService.getCurrentNeo(startDate, endDate);
         verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
         verify(neoFeedCall, times(1)).execute();
-        assertNotNull(neoFeedActual.getNearObjectOnEarth());
+        assertNotNull(neoFeedActual.getNearEarthObjects());
         assertEquals(3, neoFeedActual.getElementCount());
         List<String> listDates = new ArrayList<>(){
             {
@@ -161,11 +203,10 @@ public class NasaAsteroidServiceTest {
             }
         };
         for(String date: listDates) {
-            List<Neo> actualNeos =  neoFeedActual.getNearObjectOnEarth().get(date);
+            List<Neo> actualNeos =  neoFeedActual.getNearEarthObjects().get(date);
             compareNeoData(expectedNeos, actualNeos);
         }
     }
-
 
     @Test
     public void shouldBeAbleToFetchDetailNeoData() throws Exception {
@@ -179,6 +220,48 @@ public class NasaAsteroidServiceTest {
         assertNotNull(neoActual);
         Gson gson = new Gson();
         assertEquals(gson.toJson(neo), gson.toJson(neoActual));
+    }
+
+    @Test
+    public void getCurrentNeoShouldShow10dataSortByTheClosest() throws Exception {
+
+        String startDate = "2024-12-24";
+        String endDate = "2024-12-27";
+        when(nasaNeoService.getCurrentNeo(eq(startDate), eq(endDate), any())).thenReturn(neoFeedCall);
+        URL url = getClass().getClassLoader().getResource("neo_feed_response_example.json");
+        assert (url != null);
+        String jsonFilePath = url.getPath();
+        String jsonContent = new String(Files.readAllBytes(Paths.get(jsonFilePath)));
+        Gson gson = new Gson();
+        NeoFeed neoFeed = gson.fromJson(jsonContent, NeoFeed.class);
+        Response<NeoFeed> response = Response.success(neoFeed);
+        when(neoFeedCall.execute()).thenReturn(response);
+
+        NeoFeed neoFeedActual = nasaAsteroidService.getCurrentNeo(startDate, endDate);
+        verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
+        verify(neoFeedCall, times(1)).execute();
+        assertNotNull(neoFeedActual.getNearEarthObjects());
+        assertEquals(57, neoFeedActual.getElementCount());
+        List<String> listDates = new ArrayList<>(){
+            {
+                add(startDate);
+                add(endDate);
+                add("2024-12-25");
+                add("2024-12-26");
+            }
+        };
+        for(String date: listDates) {
+            List<Neo> actualNeos =  neoFeedActual.getNearEarthObjects().get(date);
+            for(int i = 0; i<actualNeos.size(); i++) {
+                if((i+1) < actualNeos.size() ){
+                    MissDistance currentMissDistance = actualNeos.get(i).getCloseApproachData()[0].getMissDistance();
+                    MissDistance nextCurrentMissDistance = actualNeos.get(i+1).getCloseApproachData()[0].getMissDistance();
+                    double currentDistance = Double.parseDouble(currentMissDistance.getKilometers());
+                    double nextDistance = Double.parseDouble(nextCurrentMissDistance.getKilometers());
+                    assertTrue(currentDistance <= nextDistance);
+                }
+            }
+        }
     }
 
     private void compareNeoData(List<Neo> expected, List<Neo> actuals){
