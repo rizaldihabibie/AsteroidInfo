@@ -1,0 +1,2518 @@
+{
+  "2024-12-27": [
+    {
+      "id": "3794987",
+      "neo_reference_id": "3794987",
+      "name": "(2017 YD2)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 28.699999999999999289457264239899814128875732421875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3794987?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 22:01",
+          "epoch_date_close_approach": 1735336860000,
+          "miss_distance": {
+            "astronomical": "0.0461139823",
+            "lunar": "17.9383391147",
+            "kilometers": "6898553.529297701",
+            "miles": "4286562.3925662338"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3879309",
+      "neo_reference_id": "3879309",
+      "name": "(2019 UH3)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.800000000000000710542735760100185871124267578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3879309?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 13:06",
+          "epoch_date_close_approach": 1735304760000,
+          "miss_distance": {
+            "astronomical": "0.0524653958",
+            "lunar": "20.4090389662",
+            "kilometers": "7848711.460386946",
+            "miles": "4876963.1536980148"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54502452",
+      "neo_reference_id": "54502452",
+      "name": "(2024 WM15)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.8599999999999994315658113919198513031005859375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54502452?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 07:10",
+          "epoch_date_close_approach": 1735283400000,
+          "miss_distance": {
+            "astronomical": "0.0547343573",
+            "lunar": "21.2916649897",
+            "kilometers": "8188143.267898951",
+            "miles": "5087876.2987134838"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54354515",
+      "neo_reference_id": "54354515",
+      "name": "(2023 HS)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 27.6400000000000005684341886080801486968994140625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54354515?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 00:26",
+          "epoch_date_close_approach": 1735259160000,
+          "miss_distance": {
+            "astronomical": "0.0697460609",
+            "lunar": "27.1312176901",
+            "kilometers": "10433862.151530283",
+            "miles": "6483301.3062845854"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3653047",
+      "neo_reference_id": "3653047",
+      "name": "(2013 US1)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.60000000000000142108547152020037174224853515625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3653047?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 09:33",
+          "epoch_date_close_approach": 1735291980000,
+          "miss_distance": {
+            "astronomical": "0.1548697486",
+            "lunar": "60.2443322054",
+            "kilometers": "23168184.517995482",
+            "miles": "14396042.3061303716"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "2612199",
+      "neo_reference_id": "2612199",
+      "name": "612199 (2000 WL63)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 19.989999999999998436805981327779591083526611328125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/2612199?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 04:04",
+          "epoch_date_close_approach": 1735272240000,
+          "miss_distance": {
+            "astronomical": "0.1652535502",
+            "lunar": "64.2836310278",
+            "kilometers": "24721579.119858074",
+            "miles": "15361276.9532024612"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3076550",
+      "neo_reference_id": "3076550",
+      "name": "(2000 WL63)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 19.800000000000000710542735760100185871124267578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3076550?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 04:04",
+          "epoch_date_close_approach": 1735272240000,
+          "miss_distance": {
+            "astronomical": "0.1652544132",
+            "lunar": "64.2839667348",
+            "kilometers": "24721708.222819884",
+            "miles": "15361357.1740630392"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54342552",
+      "neo_reference_id": "54342552",
+      "name": "(2023 DB2)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 22,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54342552?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 03:34",
+          "epoch_date_close_approach": 1735270440000,
+          "miss_distance": {
+            "astronomical": "0.2877640533",
+            "lunar": "111.9402167337",
+            "kilometers": "43048889.436246471",
+            "miles": "26749339.5123284598"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54419702",
+      "neo_reference_id": "54419702",
+      "name": "(2024 AX2)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 22.809999999999998721023075631819665431976318359375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54419702?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 22:01",
+          "epoch_date_close_approach": 1735336860000,
+          "miss_distance": {
+            "astronomical": "0.3221518238",
+            "lunar": "125.3170594582",
+            "kilometers": "48193226.657095306",
+            "miles": "29945882.4356989828"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54105096",
+      "neo_reference_id": "54105096",
+      "name": "(2021 AW3)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.219999999999998863131622783839702606201171875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54105096?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 12:19",
+          "epoch_date_close_approach": 1735301940000,
+          "miss_distance": {
+            "astronomical": "0.3424660339",
+            "lunar": "133.2192871871",
+            "kilometers": "51232189.218787793",
+            "miles": "31834206.2087978234"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3618806",
+      "neo_reference_id": "3618806",
+      "name": "(2012 WM28)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.300000000000000710542735760100185871124267578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3618806?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 15:00",
+          "epoch_date_close_approach": 1735311600000,
+          "miss_distance": {
+            "astronomical": "0.3671577841",
+            "lunar": "142.8243780149",
+            "kilometers": "54926022.455279867",
+            "miles": "34129447.7501894846"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3736004",
+      "neo_reference_id": "3736004",
+      "name": "(2015 XB128)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.39999999999999857891452847979962825775146484375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3736004?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 03:23",
+          "epoch_date_close_approach": 1735269780000,
+          "miss_distance": {
+            "astronomical": "0.3849018856",
+            "lunar": "149.7268334984",
+            "kilometers": "57580502.244743672",
+            "miles": "35778865.0068677936"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54265872",
+      "neo_reference_id": "54265872",
+      "name": "(2022 FF2)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.269999999999999573674358543939888477325439453125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54265872?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 01:53",
+          "epoch_date_close_approach": 1735264380000,
+          "miss_distance": {
+            "astronomical": "0.3893148826",
+            "lunar": "151.4434893314",
+            "kilometers": "58240677.196260062",
+            "miles": "36189078.6998783756"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54357785",
+      "neo_reference_id": "54357785",
+      "name": "(2023 JX)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 22.739999999999998436805981327779591083526611328125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54357785?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-27",
+          "close_approach_date_full": "2024-Dec-27 08:53",
+          "epoch_date_close_approach": 1735289580000,
+          "miss_distance": {
+            "astronomical": "0.480899276",
+            "lunar": "187.069818364",
+            "kilometers": "71941507.37414212",
+            "miles": "44702379.805396456"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    }
+  ],
+  "2024-12-26": [
+    {
+      "id": "54507434",
+      "neo_reference_id": "54507434",
+      "name": "(2024 YH)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.379999999999999005240169935859739780426025390625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54507434?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 13:33",
+          "epoch_date_close_approach": 1735219980000,
+          "miss_distance": {
+            "astronomical": "0.0244658375",
+            "lunar": "9.5172107875",
+            "kilometers": "3660037.177766125",
+            "miles": "2274241.644277525"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54504571",
+      "neo_reference_id": "54504571",
+      "name": "(2024 XQ7)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.089999999999999857891452847979962825775146484375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54504571?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 20:42",
+          "epoch_date_close_approach": 1735245720000,
+          "miss_distance": {
+            "astronomical": "0.0619255501",
+            "lunar": "24.0890389889",
+            "kilometers": "9263930.393538287",
+            "miles": "5756339.4215388806"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3795058",
+      "neo_reference_id": "3795058",
+      "name": "(2017 YY4)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.89999999999999857891452847979962825775146484375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3795058?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 06:12",
+          "epoch_date_close_approach": 1735193520000,
+          "miss_distance": {
+            "astronomical": "0.0800216684",
+            "lunar": "31.1284290076",
+            "kilometers": "11971071.146486308",
+            "miles": "7438478.6835867304"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "2377097",
+      "neo_reference_id": "2377097",
+      "name": "377097 (2002 WQ4)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 19.67999999999999971578290569595992565155029296875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/2377097?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 20:27",
+          "epoch_date_close_approach": 1735244820000,
+          "miss_distance": {
+            "astronomical": "0.0809472414",
+            "lunar": "31.4884769046",
+            "kilometers": "12109534.895815818",
+            "miles": "7524516.0678135684"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": true
+    },
+    {
+      "id": "54503850",
+      "neo_reference_id": "54503850",
+      "name": "(2024 XN5)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54503850?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 15:16",
+          "epoch_date_close_approach": 1735226160000,
+          "miss_distance": {
+            "astronomical": "0.1102959283",
+            "lunar": "42.9051161087",
+            "kilometers": "16500035.943352721",
+            "miles": "10252646.9136447098"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54243524",
+      "neo_reference_id": "54243524",
+      "name": "(2022 BL5)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.35000000000000142108547152020037174224853515625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54243524?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 00:22",
+          "epoch_date_close_approach": 1735172520000,
+          "miss_distance": {
+            "astronomical": "0.1325409858",
+            "lunar": "51.5584434762",
+            "kilometers": "19827849.163380246",
+            "miles": "12320454.1630735548"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3837867",
+      "neo_reference_id": "3837867",
+      "name": "(2019 AX11)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3837867?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 00:14",
+          "epoch_date_close_approach": 1735172040000,
+          "miss_distance": {
+            "astronomical": "0.1589769676",
+            "lunar": "61.8420403964",
+            "kilometers": "23782615.732019012",
+            "miles": "14777832.1586938856"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3337315",
+      "neo_reference_id": "3337315",
+      "name": "(2006 MB14)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.39999999999999857891452847979962825775146484375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3337315?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 12:25",
+          "epoch_date_close_approach": 1735215900000,
+          "miss_distance": {
+            "astronomical": "0.2005830507",
+            "lunar": "78.0268067223",
+            "kilometers": "30006797.142822009",
+            "miles": "18645359.1477573642"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3445544",
+      "neo_reference_id": "3445544",
+      "name": "(2009 CE)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.300000000000000710542735760100185871124267578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3445544?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 20:33",
+          "epoch_date_close_approach": 1735245180000,
+          "miss_distance": {
+            "astronomical": "0.2025296548",
+            "lunar": "78.7840357172",
+            "kilometers": "30298004.969915276",
+            "miles": "18826307.3008357688"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3942356",
+      "neo_reference_id": "3942356",
+      "name": "(2019 YD)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.0799999999999982946974341757595539093017578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3942356?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 12:49",
+          "epoch_date_close_approach": 1735217340000,
+          "miss_distance": {
+            "astronomical": "0.253441495",
+            "lunar": "98.588741555",
+            "kilometers": "37914307.82161565",
+            "miles": "23558858.44156997"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3669052",
+      "neo_reference_id": "3669052",
+      "name": "(2014 HM4)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 26.89999999999999857891452847979962825775146484375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3669052?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 02:45",
+          "epoch_date_close_approach": 1735181100000,
+          "miss_distance": {
+            "astronomical": "0.329291748",
+            "lunar": "128.094489972",
+            "kilometers": "49261344.10937676",
+            "miles": "30609579.844488888"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54132109",
+      "neo_reference_id": "54132109",
+      "name": "(2021 FA1)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 28.769999999999999573674358543939888477325439453125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54132109?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 02:25",
+          "epoch_date_close_approach": 1735179900000,
+          "miss_distance": {
+            "astronomical": "0.3436911772",
+            "lunar": "133.6958679308",
+            "kilometers": "51415468.046912564",
+            "miles": "31948090.3917148232"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54432336",
+      "neo_reference_id": "54432336",
+      "name": "(2024 FR4)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.8599999999999994315658113919198513031005859375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54432336?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 18:44",
+          "epoch_date_close_approach": 1735238640000,
+          "miss_distance": {
+            "astronomical": "0.3595304841",
+            "lunar": "139.8573583149",
+            "kilometers": "53784994.621428867",
+            "miles": "33420445.9310856846"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54440002",
+      "neo_reference_id": "54440002",
+      "name": "(2024 JA3)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.969999999999998863131622783839702606201171875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54440002?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 06:01",
+          "epoch_date_close_approach": 1735192860000,
+          "miss_distance": {
+            "astronomical": "0.3933007525",
+            "lunar": "152.9939927225",
+            "kilometers": "58836954.843397175",
+            "miles": "36559588.449044015"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3836179",
+      "neo_reference_id": "3836179",
+      "name": "(2018 VB7)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.10000000000000142108547152020037174224853515625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3836179?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 05:14",
+          "epoch_date_close_approach": 1735190040000,
+          "miss_distance": {
+            "astronomical": "0.4128706513",
+            "lunar": "160.6066833557",
+            "kilometers": "61764570.019992731",
+            "miles": "38378724.1653364478"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54228652",
+      "neo_reference_id": "54228652",
+      "name": "(2021 XN3)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.46000000000000085265128291212022304534912109375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54228652?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 12:23",
+          "epoch_date_close_approach": 1735215780000,
+          "miss_distance": {
+            "astronomical": "0.4172955844",
+            "lunar": "162.3279823316",
+            "kilometers": "62426530.586645228",
+            "miles": "38790047.3881430264"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3709603",
+      "neo_reference_id": "3709603",
+      "name": "(2015 BM515)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 20.21000000000000085265128291212022304534912109375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3709603?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 20:41",
+          "epoch_date_close_approach": 1735245660000,
+          "miss_distance": {
+            "astronomical": "0.4256622039",
+            "lunar": "165.5825973171",
+            "kilometers": "63678159.042945693",
+            "miles": "39567773.2472608434"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3591722",
+      "neo_reference_id": "3591722",
+      "name": "(2011 YJ28)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 21.32000000000000028421709430404007434844970703125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3591722?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 19:02",
+          "epoch_date_close_approach": 1735239720000,
+          "miss_distance": {
+            "astronomical": "0.4377751936",
+            "lunar": "170.2945503104",
+            "kilometers": "65490236.501397632",
+            "miles": "40693745.9678940416"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": true
+    },
+    {
+      "id": "54203008",
+      "neo_reference_id": "54203008",
+      "name": "(2021 SB5)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 20.96000000000000085265128291212022304534912109375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54203008?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-26",
+          "close_approach_date_full": "2024-Dec-26 08:37",
+          "epoch_date_close_approach": 1735202220000,
+          "miss_distance": {
+            "astronomical": "0.4682843134",
+            "lunar": "182.1625979126",
+            "kilometers": "70054335.839052458",
+            "miles": "43529745.7892536004"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    }
+  ],
+  "2024-12-25": [
+    {
+      "id": "54104550",
+      "neo_reference_id": "54104550",
+      "name": "(2021 AP1)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.6700000000000017053025658242404460906982421875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54104550?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 22:53",
+          "epoch_date_close_approach": 1735167180000,
+          "miss_distance": {
+            "astronomical": "0.0857098705",
+            "lunar": "33.3411396245",
+            "kilometers": "12822014.064775835",
+            "miles": "7967230.094483123"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54505043",
+      "neo_reference_id": "54505043",
+      "name": "(2024 XY8)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.949999999999999289457264239899814128875732421875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54505043?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 20:10",
+          "epoch_date_close_approach": 1735157400000,
+          "miss_distance": {
+            "astronomical": "0.0940018338",
+            "lunar": "36.5667133482",
+            "kilometers": "14062474.112574006",
+            "miles": "8738016.2263570428"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54054531",
+      "neo_reference_id": "54054531",
+      "name": "(2020 SN2)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.019999999999999573674358543939888477325439453125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54054531?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 21:52",
+          "epoch_date_close_approach": 1735163520000,
+          "miss_distance": {
+            "astronomical": "0.2952295648",
+            "lunar": "114.8443007072",
+            "kilometers": "44165714.055106976",
+            "miles": "27443302.1510132288"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3621604",
+      "neo_reference_id": "3621604",
+      "name": "(2012 YK)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3621604?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 22:51",
+          "epoch_date_close_approach": 1735167060000,
+          "miss_distance": {
+            "astronomical": "0.3925699403",
+            "lunar": "152.7097067767",
+            "kilometers": "58727626.894907161",
+            "miles": "36491655.2119583818"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54336234",
+      "neo_reference_id": "54336234",
+      "name": "(2022 YM2)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 26.280000000000001136868377216160297393798828125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54336234?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 10:31",
+          "epoch_date_close_approach": 1735122660000,
+          "miss_distance": {
+            "astronomical": "0.4305971341",
+            "lunar": "167.5022851649",
+            "kilometers": "64416414.089464367",
+            "miles": "40026503.6615555846"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3766164",
+      "neo_reference_id": "3766164",
+      "name": "(2016 YC8)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.60000000000000142108547152020037174224853515625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3766164?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 12:24",
+          "epoch_date_close_approach": 1735129440000,
+          "miss_distance": {
+            "astronomical": "0.456437897",
+            "lunar": "177.554341933",
+            "kilometers": "68282137.17847939",
+            "miles": "42428552.604579982"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3736805",
+      "neo_reference_id": "3736805",
+      "name": "(2015 XT378)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 27.89999999999999857891452847979962825775146484375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3736805?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 03:05",
+          "epoch_date_close_approach": 1735095900000,
+          "miss_distance": {
+            "astronomical": "0.4594691004",
+            "lunar": "178.7334800556",
+            "kilometers": "68735598.750656148",
+            "miles": "42710320.5597769224"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54459571",
+      "neo_reference_id": "54459571",
+      "name": "(2014 DA208)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.519999999999999573674358543939888477325439453125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54459571?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 05:35",
+          "epoch_date_close_approach": 1735104900000,
+          "miss_distance": {
+            "astronomical": "0.4599040281",
+            "lunar": "178.9026669309",
+            "kilometers": "68800663.008180147",
+            "miles": "42750749.6146821486"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3698842",
+      "neo_reference_id": "3698842",
+      "name": "(2014 WQ202)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.82000000000000028421709430404007434844970703125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3698842?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-25",
+          "close_approach_date_full": "2024-Dec-25 20:46",
+          "epoch_date_close_approach": 1735159560000,
+          "miss_distance": {
+            "astronomical": "0.4927465124",
+            "lunar": "191.6783933236",
+            "kilometers": "73713828.704968588",
+            "miles": "45803649.2138309944"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    }
+  ],
+  "2024-12-24": [
+    {
+      "id": "54502883",
+      "neo_reference_id": "54502883",
+      "name": "(2024 XN1)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.780000000000001136868377216160297393798828125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54502883?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 02:57",
+          "epoch_date_close_approach": 1735009020000,
+          "miss_distance": {
+            "astronomical": "0.0482443143",
+            "lunar": "18.7670382627",
+            "kilometers": "7217246.658890541",
+            "miles": "4484589.1206738258"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54502151",
+      "neo_reference_id": "54502151",
+      "name": "(2024 WU13)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 26.3900000000000005684341886080801486968994140625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54502151?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 01:44",
+          "epoch_date_close_approach": 1735004640000,
+          "miss_distance": {
+            "astronomical": "0.0537044147",
+            "lunar": "20.8910173183",
+            "kilometers": "8034066.048716689",
+            "miles": "4992137.1541967482"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54374410",
+      "neo_reference_id": "54374410",
+      "name": "(2023 MZ5)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 26.129999999999999005240169935859739780426025390625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54374410?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 01:41",
+          "epoch_date_close_approach": 1735004460000,
+          "miss_distance": {
+            "astronomical": "0.1404256368",
+            "lunar": "54.6255727152",
+            "kilometers": "21007376.158673616",
+            "miles": "13053378.2518072608"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54467193",
+      "neo_reference_id": "54467193",
+      "name": "(2024 QL1)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 27.57000000000000028421709430404007434844970703125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54467193?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 20:56",
+          "epoch_date_close_approach": 1735073760000,
+          "miss_distance": {
+            "astronomical": "0.1654935436",
+            "lunar": "64.3769884604",
+            "kilometers": "24757481.621312132",
+            "miles": "15383585.7331341416"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54279935",
+      "neo_reference_id": "54279935",
+      "name": "(2022 KH1)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.5,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54279935?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 16:34",
+          "epoch_date_close_approach": 1735058040000,
+          "miss_distance": {
+            "astronomical": "0.1909422216",
+            "lunar": "74.2765242024",
+            "kilometers": "28564549.644427992",
+            "miles": "17749188.1082586096"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3959223",
+      "neo_reference_id": "3959223",
+      "name": "(2019 YB4)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 26.800000000000000710542735760100185871124267578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3959223?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 13:53",
+          "epoch_date_close_approach": 1735048380000,
+          "miss_distance": {
+            "astronomical": "0.2633704886",
+            "lunar": "102.4511200654",
+            "kilometers": "39399664.115419282",
+            "miles": "24481816.0444268116"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3736395",
+      "neo_reference_id": "3736395",
+      "name": "(2015 XD169)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 26.89999999999999857891452847979962825775146484375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3736395?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 02:39",
+          "epoch_date_close_approach": 1735007940000,
+          "miss_distance": {
+            "astronomical": "0.2760132214",
+            "lunar": "107.3691431246",
+            "kilometers": "41290990.013278418",
+            "miles": "25657031.4618934484"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3152317",
+      "neo_reference_id": "3152317",
+      "name": "(2003 GQ22)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 21.480000000000000426325641456060111522674560546875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3152317?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 12:11",
+          "epoch_date_close_approach": 1735042260000,
+          "miss_distance": {
+            "astronomical": "0.299132726",
+            "lunar": "116.362630414",
+            "kilometers": "44749618.65689362",
+            "miles": "27806123.646307156"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": true
+    },
+    {
+      "id": "3756789",
+      "neo_reference_id": "3756789",
+      "name": "(2016 PO)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 25.10000000000000142108547152020037174224853515625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3756789?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 22:53",
+          "epoch_date_close_approach": 1735080780000,
+          "miss_distance": {
+            "astronomical": "0.3091313319",
+            "lunar": "120.2520881091",
+            "kilometers": "46245388.802503053",
+            "miles": "28735552.1166180114"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3716473",
+      "neo_reference_id": "3716473",
+      "name": "(2015 GJ46)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 19.300000000000000710542735760100185871124267578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3716473?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 03:22",
+          "epoch_date_close_approach": 1735010520000,
+          "miss_distance": {
+            "astronomical": "0.3107901067",
+            "lunar": "120.8973515063",
+            "kilometers": "46493537.979392729",
+            "miles": "28889744.8651245002"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3147579",
+      "neo_reference_id": "3147579",
+      "name": "(2003 CA4)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.60000000000000142108547152020037174224853515625,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3147579?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 09:11",
+          "epoch_date_close_approach": 1735031460000,
+          "miss_distance": {
+            "astronomical": "0.3758728337",
+            "lunar": "146.2145323093",
+            "kilometers": "56229775.312384219",
+            "miles": "34939562.2100874622"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54358249",
+      "neo_reference_id": "54358249",
+      "name": "(2023 JX1)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 24.71000000000000085265128291212022304534912109375,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54358249?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 21:50",
+          "epoch_date_close_approach": 1735077000000,
+          "miss_distance": {
+            "astronomical": "0.3942424888",
+            "lunar": "153.3603281432",
+            "kilometers": "58977836.587978856",
+            "miles": "36647128.3058499728"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3837805",
+      "neo_reference_id": "3837805",
+      "name": "(2019 AU9)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 26.699999999999999289457264239899814128875732421875,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3837805?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 07:06",
+          "epoch_date_close_approach": 1735023960000,
+          "miss_distance": {
+            "astronomical": "0.400917042",
+            "lunar": "155.956729338",
+            "kilometers": "59976335.52990054",
+            "miles": "37267566.778245852"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "54051372",
+      "neo_reference_id": "54051372",
+      "name": "(2020 QX4)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 23.0799999999999982946974341757595539093017578125,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/54051372?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 18:06",
+          "epoch_date_close_approach": 1735063560000,
+          "miss_distance": {
+            "astronomical": "0.4084446769",
+            "lunar": "158.8849793141",
+            "kilometers": "61102453.677078203",
+            "miles": "37967304.1476490814"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    },
+    {
+      "id": "3836853",
+      "neo_reference_id": "3836853",
+      "name": "(2018 XR2)",
+      "name_limited": null,
+      "designation": null,
+      "absolute_magnitude_h": 27.5,
+      "links": {
+        "next": null,
+        "self": "http:\/\/api.nasa.gov\/neo\/rest\/v1\/neo\/3836853?api_key=gHc1h6CQzsLi92mLWJAsOB53nGtLhvQjoSDWphJ6"
+      },
+      "estimated_diameter": {
+        "kilometers": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "meters": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "miles": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        },
+        "feet": {
+          "estimated_diameter_min": 0,
+          "estimated_diameter_max": 0
+        }
+      },
+      "close_approach_data": [
+        {
+          "close_approach_date": "2024-12-24",
+          "close_approach_date_full": "2024-Dec-24 16:53",
+          "epoch_date_close_approach": 1735059180000,
+          "miss_distance": {
+            "astronomical": "0.4524306295",
+            "lunar": "175.9955148755",
+            "kilometers": "67682658.495959165",
+            "miles": "42056053.824259877"
+          }
+        }
+      ],
+      "potentially_hazardous_asteroid": false
+    }
+  ]
+}
