@@ -107,7 +107,7 @@ public class AsteroidControllerTest {
         Type listType = new TypeToken<HashMap<String, List<Neo>>>() {}.getType();
         HashMap<String, List<Neo>> mapResult = gson.fromJson(jsonContent, listType);
 
-        when(asteroidService.getCurrentNeo(anyString(), anyString())).thenReturn(mapResult);
+        when(asteroidService.getCurrentNeo(anyString(), anyString(), any())).thenReturn(mapResult);
 
         ResultActions resultActions = mockMvc.perform(get("/asteroids?startDate=2024-12-24&endDate=2024-12-27"))
                 .andExpect(status().isOk())
@@ -115,7 +115,7 @@ public class AsteroidControllerTest {
 
         resultActions.andExpect(content().json(jsonResultContent));
 
-        verify(asteroidService, times(1)).getCurrentNeo(anyString(), anyString());
+        verify(asteroidService, times(1)).getCurrentNeo(anyString(), anyString(), any());
 
     }
 
@@ -131,7 +131,7 @@ public class AsteroidControllerTest {
         Type listType = new TypeToken<HashMap<String, List<Neo>>>() {}.getType();
         HashMap<String, List<Neo>> mapResult = gson.fromJson(jsonContent, listType);
 
-        when(asteroidService.getCurrentNeo(eq("2024-12-24"), eq("2024-12-27"))).thenReturn(mapResult);
+        when(asteroidService.getCurrentNeo(eq("2024-12-24"), eq("2024-12-27"), any())).thenReturn(mapResult);
 
         ResultActions resultActions = mockMvc.perform(get("/asteroids?startDate=2024-11-25&endDate=2024-11-28"))
                 .andExpect(status().isOk())
@@ -145,7 +145,7 @@ public class AsteroidControllerTest {
                 }
                 """));
 
-        verify(asteroidService, times(1)).getCurrentNeo("2024-11-25", "2024-11-28");
+        verify(asteroidService, times(1)).getCurrentNeo("2024-11-25", "2024-11-28", null);
 
     }
 
@@ -202,6 +202,36 @@ public class AsteroidControllerTest {
                 """));
 
         verify(asteroidService, times(1)).getDetailNeo("3794988");
+
+    }
+
+    @Test
+    public void shouldNotBeAbleToFetchCurrentClosestNeoDataConsideringDistance() throws Exception {
+        URL url = getClass().getClassLoader().getResource("neo_get_current_closest_api_with_distance_response.json");
+
+        assert (url != null);
+        String jsonFilePath = url.getPath();
+        String jsonContent = new String(Files.readAllBytes(Paths.get(jsonFilePath)));
+
+        Gson gson = new Gson();
+        Type listType = new TypeToken<HashMap<String, List<Neo>>>() {}.getType();
+        HashMap<String, List<Neo>> mapResult = gson.fromJson(jsonContent, listType);
+
+        when(asteroidService.getCurrentNeo(eq("2024-11-25"), eq("2024-11-28"), eq(3434578345.45))).thenReturn(mapResult);
+
+        ResultActions resultActions = mockMvc.perform(get("/asteroids?startDate=2024-11-25&endDate=2024-11-28&distance=3434578345.45"))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType("application/json"));
+
+        resultActions.andExpect(content().json("""
+                {
+                    "status": "Success",
+                    "message": null,
+                    "data": {}
+                }
+                """));
+
+        verify(asteroidService, times(1)).getCurrentNeo("2024-11-25", "2024-11-28", 3434578345.45);
 
     }
 }

@@ -23,12 +23,13 @@ public class AsteroidController {
     @GetMapping
     public ResponseEntity<ApplicationResponse> getAllData(
             @RequestParam(value = "startDate", required = false) String startDate,
-            @RequestParam(value = "endDate", required = false) String endDate
+            @RequestParam(value = "endDate", required = false) String endDate,
+            @RequestParam(value = "distance", required = false) Double kilometers
     ) {
         ApplicationResponse response = new ApplicationResponse();
         try {
             if(startDate != null && endDate != null) {
-                HashMap<String, List<Neo>> listNeos= asteroidService.getCurrentNeo(startDate, endDate);
+                HashMap<String, List<Neo>> listNeos= asteroidService.getCurrentNeo(startDate, endDate, kilometers);
                 response.setData(listNeos);
             } else {
                 List<Neo> listNeos = asteroidService.getAllNeo();

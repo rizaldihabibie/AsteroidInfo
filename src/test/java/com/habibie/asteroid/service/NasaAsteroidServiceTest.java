@@ -188,7 +188,7 @@ public class NasaAsteroidServiceTest {
         Response<NeoFeed> response = Response.success(neoFeed);
         when(neoFeedCall.execute()).thenReturn(response);
 
-        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate);
+        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate, null);
         verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
         verify(neoFeedCall, times(1)).execute();
         assertNotNull(listNeos);
@@ -235,7 +235,7 @@ public class NasaAsteroidServiceTest {
         Response<NeoFeed> response = Response.success(neoFeed);
         when(neoFeedCall.execute()).thenReturn(response);
 
-        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate);
+        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate, null);
         verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
         verify(neoFeedCall, times(1)).execute();
         assertNotNull(listNeos);
@@ -259,6 +259,88 @@ public class NasaAsteroidServiceTest {
                     assertTrue(currentDistance <= nextDistance);
                 }
             }
+        }
+    }
+
+    @Test
+    public void shouldBeAbleToFetchNeoFeedDataConsideringDistance() throws Exception {
+        String startDate = "2024-12-21";
+        String betweenDate = "2024-12-22";
+        String endDate = "2024-12-23";
+        when(nasaNeoService.getCurrentNeo(eq(startDate), eq(endDate), any())).thenReturn(neoFeedCall);
+        NeoFeed neoFeed = new NeoFeed();
+        HashMap<String, List<Neo>> neoFeedMap = new HashMap<>();
+        List<Neo> expectedNeos = new ArrayList<>(){
+            {
+                add(neo);
+                add(neo1);
+                add(neo2);
+            }
+        };
+        neoFeedMap.put(startDate, expectedNeos);
+        neoFeedMap.put(betweenDate, expectedNeos);
+        neoFeedMap.put(endDate, expectedNeos);
+        neoFeed.setNearEarthObjects(neoFeedMap);
+        neoFeed.setElementCount(3);
+        Response<NeoFeed> response = Response.success(neoFeed);
+        when(neoFeedCall.execute()).thenReturn(response);
+
+        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate, 58373589.0);
+        verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
+        verify(neoFeedCall, times(1)).execute();
+        assertNotNull(listNeos);
+        assertEquals(3, listNeos.size());
+        List<String> listDates = new ArrayList<>(){
+            {
+                add(startDate);
+                add(endDate);
+                add(betweenDate);
+            }
+        };
+        for(String date: listDates) {
+            List<Neo> actualNeos =  listNeos.get(date);
+            compareNeoData(expectedNeos, actualNeos);
+        }
+    }
+
+    @Test
+    public void shouldNotBeAbleToFetchNeoFeedDataConsideringDistance() throws Exception {
+        String startDate = "2024-12-21";
+        String betweenDate = "2024-12-22";
+        String endDate = "2024-12-23";
+        when(nasaNeoService.getCurrentNeo(eq(startDate), eq(endDate), any())).thenReturn(neoFeedCall);
+        NeoFeed neoFeed = new NeoFeed();
+        HashMap<String, List<Neo>> neoFeedMap = new HashMap<>();
+        List<Neo> expectedNeos = new ArrayList<>(){
+            {
+                add(neo);
+                add(neo1);
+                add(neo2);
+            }
+        };
+        neoFeedMap.put(startDate, expectedNeos);
+        neoFeedMap.put(betweenDate, expectedNeos);
+        neoFeedMap.put(endDate, expectedNeos);
+        neoFeed.setNearEarthObjects(neoFeedMap);
+        neoFeed.setElementCount(3);
+        Response<NeoFeed> response = Response.success(neoFeed);
+        when(neoFeedCall.execute()).thenReturn(response);
+
+        HashMap<String, List<Neo>> listNeos = nasaAsteroidService.getCurrentNeo(startDate, endDate, 58373583.0);
+        verify(nasaNeoService, times(1)).getCurrentNeo(eq(startDate), eq(endDate),any());
+        verify(neoFeedCall, times(1)).execute();
+        assertNotNull(listNeos);
+        assertEquals(3, listNeos.size());
+        List<String> listDates = new ArrayList<>(){
+            {
+                add(startDate);
+                add(endDate);
+                add(betweenDate);
+            }
+        };
+        for(String date: listDates) {
+            List<Neo> actualNeos =  listNeos.get(date);
+            assertEquals(0, actualNeos.size());
         }
     }
 

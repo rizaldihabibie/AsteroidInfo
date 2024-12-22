@@ -58,7 +58,11 @@ public class NasaAsteroidService implements AsteroidService {
     }
 
     @Override
-    public HashMap<String, List<Neo>> getCurrentNeo(String startDate, String endDate) throws Exception {
+    public HashMap<String, List<Neo>> getCurrentNeo(
+            String startDate,
+            String endDate,
+            Double kilometers
+            ) throws Exception {
 
         nasaNeoService = retrofit.create(NasaNeoService.class);
         Call<NeoFeed> nasaCaller = nasaNeoService.getCurrentNeo(startDate, endDate,nasaApiKey);
@@ -70,11 +74,23 @@ public class NasaAsteroidService implements AsteroidService {
                 if(neoFeed != null && neoFeed.getNearEarthObjects() != null) {
                     // Sorting based on closest distance from earth
                     for (Map.Entry<String, List<Neo>> entry : neoFeed.getNearEarthObjects().entrySet()) {
-                        entry.getValue().sort(
-                                Comparator.comparingDouble(a -> Double.parseDouble(
-                                        a.getCloseApproachData()[0].getMissDistance().getKilometers()
-                                ))
-                        );
+                        if(kilometers != null) {
+                            List<Neo> selectedValues = entry.getValue().stream().filter(data ->
+                                    Double.parseDouble(
+                                            data.getCloseApproachData()[0].getMissDistance().getKilometers()
+                                    ) <= kilometers
+                            ).sorted(Comparator.comparingDouble(a -> Double.parseDouble(
+                                            a.getCloseApproachData()[0].getMissDistance().getKilometers()
+                                    )))
+                                    .toList();
+                            entry.setValue(new ArrayList<>(selectedValues));
+                        } else {
+                            entry.getValue().sort(
+                                    Comparator.comparingDouble(a -> Double.parseDouble(
+                                            a.getCloseApproachData()[0].getMissDistance().getKilometers()
+                                    ))
+                            );
+                        }
                     }
 
                     return neoFeed.getNearEarthObjects();
