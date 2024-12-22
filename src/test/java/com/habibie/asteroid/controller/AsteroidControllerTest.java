@@ -68,6 +68,25 @@ public class AsteroidControllerTest {
 
         verify(asteroidService, times(1)).getAllNeo();
 
+    }
+
+    @Test
+    public void shouldNotBeAbleToFetchAllNeoData() throws Exception {
+
+        when(asteroidService.getAllNeo()).thenReturn(null);
+
+        ResultActions resultActions = mockMvc.perform(get("/asteroids"))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType("application/json"));
+        resultActions.andExpect(content().json("""
+                {
+                    "status": "Success",
+                    "message": null,
+                    "data": null
+                }
+                """));
+
+        verify(asteroidService, times(1)).getAllNeo();
 
     }
 
@@ -101,6 +120,36 @@ public class AsteroidControllerTest {
     }
 
     @Test
+    public void shouldNotBeAbleToFetchCurrentClosestNeoData() throws Exception {
+        URL url = getClass().getClassLoader().getResource("neo_get_current_closest_api_success_response.json");
+
+        assert (url != null);
+        String jsonFilePath = url.getPath();
+        String jsonContent = new String(Files.readAllBytes(Paths.get(jsonFilePath)));
+
+        Gson gson = new Gson();
+        Type listType = new TypeToken<HashMap<String, List<Neo>>>() {}.getType();
+        HashMap<String, List<Neo>> mapResult = gson.fromJson(jsonContent, listType);
+
+        when(asteroidService.getCurrentNeo(eq("2024-12-24"), eq("2024-12-27"))).thenReturn(mapResult);
+
+        ResultActions resultActions = mockMvc.perform(get("/asteroids?startDate=2024-11-25&endDate=2024-11-28"))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType("application/json"));
+
+        resultActions.andExpect(content().json("""
+                {
+                    "status": "Success",
+                    "message": null,
+                    "data": {}
+                }
+                """));
+
+        verify(asteroidService, times(1)).getCurrentNeo("2024-11-25", "2024-11-28");
+
+    }
+
+    @Test
     public void shouldBeAbleToFetchDetailNeoData() throws Exception {
         URL url = getClass().getClassLoader().getResource("neo_get_detail_api_success_response.json");
         URL urlResult = getClass().getClassLoader().getResource("neo_get_detail_api_expected_success_response.json");
@@ -121,10 +170,38 @@ public class AsteroidControllerTest {
         ResultActions resultActions = mockMvc.perform(get("/asteroids/3794987"))
                 .andExpect(status().isOk())
                 .andExpect(content().contentType("application/json"));
-        System.out.println("KESINI "+resultActions.andReturn().getResponse().getContentAsString());
         resultActions.andExpect(content().json(jsonResultContent));
 
         verify(asteroidService, times(1)).getDetailNeo(anyString());
+
+    }
+
+    @Test
+    public void shouldNotBeAbleToFetchDetailNeoData() throws Exception {
+        URL url = getClass().getClassLoader().getResource("neo_get_detail_api_success_response.json");
+
+        assert (url != null);
+        String jsonFilePath = url.getPath();
+        String jsonContent = new String(Files.readAllBytes(Paths.get(jsonFilePath)));
+
+        Gson gson = new Gson();
+        Neo result = gson.fromJson(jsonContent, Neo.class);
+
+        when(asteroidService.getDetailNeo("3794987")).thenReturn(result);
+
+        ResultActions resultActions = mockMvc.perform(get("/asteroids/3794988"))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType("application/json"));
+
+        resultActions.andExpect(content().json("""
+                {
+                    "status": "Success",
+                    "message": null,
+                    "data": null
+                }
+                """));
+
+        verify(asteroidService, times(1)).getDetailNeo("3794988");
 
     }
 }
