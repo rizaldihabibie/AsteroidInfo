@@ -1,4 +1,4 @@
-# Project Build Guide
+# AsteroidInfo
 
 This is simple application for getting information about nearest earth objects. This app integrate with Nasa API to get the informations
 
